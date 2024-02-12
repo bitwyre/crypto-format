@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./",
+    "module": "esnext",
+    "outDir": "./",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/__test__",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}
